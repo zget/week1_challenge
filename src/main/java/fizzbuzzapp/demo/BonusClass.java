@@ -27,7 +27,7 @@ public class BonusClass
                 multipleOf23++;
             }
         }
-        return "the number of multiples of 7 is: "+multipleOf7+" the number of multiples of 17 is: "+multipleOf17+
+        return " the number of multiples of 7 is: "+multipleOf7+" the number of multiples of 17 is: "+multipleOf17+
                 " the number of multiples of 23 is: "+multipleOf23;
     }
 
