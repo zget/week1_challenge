@@ -1,39 +1,28 @@
 package fizzbuzzapp.demo;
 
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-@RestController
 public class fizzBuzzclass
 {
 
-    String message=" ";
-    @RequestMapping("/")
-    public String MainController()
+
+
+
+    public  String fizzBuzz(int i)
     {
-        for(int i=1; i<100;i++)
-
-            message=message+"  " + display(i);
-
-        return message;
-    }
-
-
-
-    public String display(int i) {
-
+        String message_from_method=" ";
         if(i%3==0 && i%5==0)
-            message="FizzBuzz";
+            message_from_method="FizzBuzz";
         else if(i%3==0)
-            message="Fizz";
+            message_from_method="Fizz";
         else if(i%5==0)
-            message="Buzz";
+            message_from_method="Buzz";
         else
-            message=Integer.toString(i);
+            message_from_method=Integer.toString(i);
 
-        return message;
+        return message_from_method;
     }
+
+
 }
 
 
