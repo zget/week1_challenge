@@ -5,7 +5,7 @@ public class BonusClass
     int multipleOf7, multipleOf17,multipleOf23;
     public  String multiplesCounter(int upperLimit)
     {
-        for(int i=1;i<upperLimit;i++) {
+        for(int i=1;i<=upperLimit;i++) {
             if (i % 7 == 0 && i % 17 == 0 && i % 23 == 0) {
                 multipleOf7++;
                 multipleOf17++;

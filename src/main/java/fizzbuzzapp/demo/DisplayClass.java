@@ -22,7 +22,7 @@ public class DisplayClass {
 
         int counter=keyboard.nextInt();
 
-        for(int i=1; i<counter;i++)
+        for(int i=1; i<=counter;i++)
 
             message_to_url=message_to_url+"  " + myFizzBuzzInstance.fizzBuzz(i);
 
